@@ -1,17 +1,10 @@
 package cookietogo97.diamondtippedtools;
 
-import net.minecraft.core.block.Block;
-import net.minecraft.core.item.ItemStack;
 import net.minecraft.core.item.material.ToolMaterial;
 import net.minecraft.core.item.tool.ItemToolPickaxe;
 
 public class StonePickaxe extends ItemToolPickaxe {
 	public StonePickaxe(String name, int id) {
-		super(name, id, ToolMaterial.stone);
-	}
-
-	@Override
-	public float getStrVsBlock(ItemStack itemstack, Block block) {
-		return super.getStrVsBlock(itemstack, block) * (float)2;
+		super(name, id, (new ToolMaterial()).setDurability(192).setEfficiency(6.0F, 9.0F).setMiningLevel(1));
 	}
 }
