@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "diamondtippedtools",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Diamond Tipped Tools",
+  "description": "This mod adds diamond tipped tools to BTA.",
   "authors": [
-    "Turnip Labs"
+    "cookietogo97"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.diamondtippedtools.DiamondTippedTools"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.diamondtippedtools.DiamondTippedTools"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.diamondtippedtools.DiamondTippedTools"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.diamondtippedtools.DiamondTippedTools"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+    "diamondtippedtools.mixins.json"
   ],
 
   "depends": {
