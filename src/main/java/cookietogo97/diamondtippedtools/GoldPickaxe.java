@@ -5,6 +5,6 @@ import net.minecraft.core.item.tool.ItemToolPickaxe;
 
 public class GoldPickaxe extends ItemToolPickaxe {
 	public GoldPickaxe(String name, int id) {
-		super(name, id, (new ToolMaterial()).setDurability(384).setEfficiency(10.5F, 18.0F).setMiningLevel(2).setSilkTouch(true));
+		super(name, id, ToolMaterialTipped.tipped_gold);
 	}
 }
